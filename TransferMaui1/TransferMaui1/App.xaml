@@ -1,0 +1,18 @@
+﻿<Application x:Class="TransferMaui1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TransferMaui1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ControlTemplate x:Key="logo2" TargetType="Label">
+            <Grid Width="200" Height="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Content="Preisliste" Grid.Column="0" FontFamily="Comic" FontSize="20"  Background="CornflowerBlue"/>
+                <Label Content="TOS" Grid.Column="1" FontFamily="Comic" FontSize="20" Foreground="Black" Background="CornflowerBlue" />
+            </Grid>
+        </ControlTemplate>
+    </Application.Resources>
+</Application>
